@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Comic; /* Имя шрифта */
+    src: url(fonts/comic_sans.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Arial; /* Имя шрифта */
+    src: url(fonts/arial.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body {
+	margin: 0;
+	padding: 0;
+    background: #f7f4f4;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.burger {
+    display: none;
+}
+menu {
+    max-width: 1260px;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    margin-right: 20px;
+    list-style: none;
+    display: block;
+    border-left: 1px solid #c8bcbc;
+	font-size: 21px;
+	line-height: 29px;
+	color: #000;
+    font-family: "Comic";
+}
+a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+li:first-child{
+    border-left: none;
+}
+.menu__icon {
+    margin: 0 10px 0 20px;
+}
+.slider{
+    max-width: 1260px;
+    height: 435px;
+    margin: 0 auto;
+    margin-top: 130px;
+    background-image: url('images/bg1.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+	flex-flow: row wrap;
+    align-items: center;
+}
+.slid__icon{
+    margin-left: 10%;
+    width: 40%;
+}
+.contacts{
+    display: flex;
+	flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background: rgb(221, 143, 143);
+}
+.cont__elem{
+    background: rgb(144, 211, 131);
+    margin: 0 70px;
+    display: flex;
+	flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.elem__name{
+    font-family: "Arial";
+    font-size: 35px;
+    color: #33312e;
+    letter-spacing: 1px;
+    background: rgb(172, 112, 190);
+}
+.elem__phone{
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    background: #f3212b;
+    font-family: "Arial";
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 52px;
+    text-align: center;
+}
+.photo{
+    width: 100%;
+    height: 340px;
+    background-image: url('images/meat-roast.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 165px;
+}
+footer{
+    height: 55px;
+    background: #33312e;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer__icon{
+    margin-right: 3px;
+}
+p{
+    display: block;
+    font-size: 20px;
+	color: #fff;
+    font-family: "Comic";
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 1024px) {
+    .cont__elem{
+        background: rgb(36, 92, 24);
+        margin: 0 20px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider {
+        margin-top: 70px;
+    }
+    .photo {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 840px) {
+    menu {
+        justify-content: center;
+        /*height: 180px;*/
+    }
+    /*ul {
+        display: none;
+    }*/
+    .head__menu {
+        display: none;
+    }
+    .head__menu.active {
+        display: block;
+    }
+    ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: rgb(233, 188, 105);
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    li {
+        margin-left: 0px;
+        margin: 0 auto;
+        padding: 10px;
+        border-left: none;
+        border-top: 1px solid #c8bcbc;
+    }
+    .menu__icon {
+        margin: 0 10px 0 0;
+    }
+    .burger {
+        display: block;
+        margin-left: 30px;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        width: 30px;
+        height: 20px;
+        background: rgb(245, 152, 152);
+    }
+    .burger span {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #000;
+        left: 0;
+        top: 9px;
+    }
+    .burger.active span {
+        transform: scale(0);
+    }
+    .burger::before,
+    .burger::after {
+        content: '';
+        background: #000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .burger::before {
+        top: 0;
+    }
+    .burger::after {
+        bottom: 0;
+    }
+    .burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .slider {
+        height: 275px;
+    }
+    .redman {
+        display: none;
+    }
+}
