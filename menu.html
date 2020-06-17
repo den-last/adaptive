@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PROJECT_4</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="menu.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        
+        <menu>
+          <div class="burger">
+            <span></span>
+          </div>
+          <div>
+            <img class="menu__logo" src="icons/logo2.png">
+          </div>
+          <div class="head__menu">
+            <ul>
+                <li><a href="http://localhost:8848/index.html">Главная</a></li>
+                <li><a href="http://localhost:8848/menu.html"><img class="menu__icon" src="icons/meat.png">Меню</a></li>
+                <li><a href="#"><img class="menu__icon" src="icons/calender.png">Бронирование</a></li>
+                <li><a href="#"><img class="menu__icon" src="icons/24.png">Новости</a></li>
+                <li><a href="#"><img class="menu__icon" src="icons/phone.png">Контакты</a></li>
+            </ul>
+          </div>
+        </menu>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <div class="slid__item">
+        <img class="slid__icon" src="icons/logo.png">
+        <div class="recl">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptates
+          </p>
+        </div>
+      </div>
+      <div class="slid__item">
+        <img class="slid__icon" src="icons/logo3.png">
+        <div class="recl">
+          <p>
+             Здесь место для рекламы. Можно написать здесь любой текст. только немного
+          </p>
+        </div>
+      </div>
+      <div class="slid__item">
+        <img class="slid__icon" src="icons/logo2.png">
+        <div class="recl">
+          <p>
+             Здесь тоже место для рекламы. Можно написать здесь еще что нибудь.
+          </p>
+        </div>
+      </div>
+    </div>
+    <h1>Меню</h1>
+    <div class="dishmenu__wrap">
+      <div class="dishmenu__cont">
+        
+
+        <nav class="dishmenu__tabs">
+
+          <a href="#tab01" class="tab__item" data-filter="all"><span>Все</span></a>
+          <a href="#tab02" class="tab__item" data-filter="hot"><span>Горячие блюда</span></a>
+          <a href="#tab03" class="tab__item" data-filter="meat"><span>Мясо</span></a>
+          <a href="#tab04" class="tab__item" data-filter="grill"><span>Гриль</span></a>
+          <a href="#tab05" class="tab__item" data-filter="salad"><span>Салаты</span></a>
+          
+          <a href="#tab06" class="tab__item" data-filter="drinks"><span>Напитки</span></a>
+          <a href="#tab07" class="tab__item" data-filter="sauce"><span>Соусы</span></a>
+          <a href="#tab08" class="tab__item" data-filter="snacks"><span>Закуски</span></a>
+          <a href="#tab09" class="tab__item" data-filter="alco"><span>Алкогольные напитки</span></a>
+          
+        </nav>
+
+        <div class="dishmenu__item__cont">
+          
+
+            <div class="dishmenu__item" data-cat="hot">
+              <div class="dish__img">
+                <img src="images/solyanka.png" alt="">
+              </div>
+              <p>Солянка мясная сборная</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">250 г</span>
+                  <span class="price">45 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+            </div>
+
+            <div class="dishmenu__item" data-cat="hot">
+              <div class="dish__img">
+                <img src="images/okroshka.png" alt="">
+
+              </div>
+              <p>Окрошка</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">250 г</span>
+                  <span class="price">35 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+            </div>
+
+            <div class="dishmenu__item" data-cat="hot">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Пельмени домашние</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">200 г</span>
+                  <span class="price">40 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+            </div>
+
+            <div class="dishmenu__item" data-cat="hot">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Комплексный обед</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">1 шт</span>
+                  <span class="price">55 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Шашлык куриный</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">240 г</span>
+                  <span class="price">100 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+            </div>
+
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="images/osheek.png" alt="">
+
+              </div>
+              <p>Ошеек свиной</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">230 г</span>
+                  <span class="price">100 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="images/balyk.png" alt="">
+
+              </div>
+              <p>Балык свиной</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">240 г</span>
+                  <span class="price">100 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="images/file.png" alt="">
+
+              </div>
+              <p>Филе свиное</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">240 г</span>
+                  <span class="price">100 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="images/solyanka.png" alt="">
+
+              </div>
+              <p>Котлета по-Дарницки на кости (свинина)</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">40 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="images/rebro.png" alt="">
+
+              </div>
+              <p>Ребро свиное</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">280 г</span>
+                  <span class="price">100 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="images/tel_rebro.png" alt="">
+
+              </div>
+              <p>Телятина на ребре</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">280 г</span>
+                  <span class="price">100 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="meat">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Баранина</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">230 г</span>
+                  <span class="price">120 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="grill">
+              <div class="dish__img">
+                <img src="images/skumbr_gr.png" alt="">
+
+              </div>
+              <p>Скумбрия гриль</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">1 шт</span>
+                  <span class="price">100 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="grill">
+              <div class="dish__img">
+                <img src="images/ovosch_gr.png" alt="">
+
+              </div>
+              <p>Овощи гриль</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">400 г</span>
+                  <span class="price">120 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="grill">
+              <div class="dish__img">
+                <img src="images/kartof_gr.png" alt="">
+
+              </div>
+              <p>Картофель гриль в чесночном соусе</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">300 г</span>
+                  <span class="price">35 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div> 
+
+            <div class="dishmenu__item" data-cat="grill">
+              <div class="dish__img">
+                <img src="images/griby_mang.png" alt="">
+
+              </div>
+              <p>Грибы на мангале (шампиньоны)</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">200 г</span>
+                  <span class="price">50 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="grill">
+              <div class="dish__img">
+                <img src="images/lepesh_mang.png" alt="">
+
+              </div>
+              <p>Лепешка на мангале (своя выпечка)</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">1 шт</span>
+                  <span class="price">15 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="grill">
+              <div class="dish__img">
+                <img src="images/kartof_gutsul.png" alt="">
+
+              </div>
+              <p>Картофель "По-гуцульски" с подчеревиной</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">350 г</span>
+                  <span class="price">65 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="salad">
+              <div class="dish__img">
+                <img src="images/olivie.png" alt="">
+
+              </div>
+              <p>Салат "Оливье"</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">300 г</span>
+                  <span class="price">60 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="salad">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Салат "Сельдь под шубой"</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">300 г</span>
+                  <span class="price">50 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="salad">
+              <div class="dish__img">
+                <img src="images/sd_krab.png" alt="">
+
+              </div>
+              <p>Салат "Крабовый"</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">300 г</span>
+                  <span class="price">50 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="salad">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Салат "По-домашнему"</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">200 г</span>
+                  <span class="price">40 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="salad">
+              <div class="dish__img">
+                <img src="images/sd_kapust.png" alt="">
+
+              </div>
+              <p>Салат из свежей капусты</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">200 г</span>
+                  <span class="price">40 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="sauce">
+              <div class="dish__img">
+                <img src="images/sous_4esn.png" alt="">
+
+              </div>
+              <p>Соус белый чесночный</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">15 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="sauce">
+              <div class="dish__img">
+                <img src="images/sous_tomat.png" alt="">
+
+              </div>
+              <p>Соус красный томатный</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">15 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="sauce">
+              <div class="dish__img">
+                <img src="images/ajika.png" alt="">
+
+              </div>
+              <p>Аджика острая</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">20 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="images/ovosch_narez.png" alt="">
+
+              </div>
+              <p>Овощная нарезка "Огород"</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">200 г</span>
+                  <span class="price">40 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="images/solen_marinad.png" alt="">
+
+              </div>
+              <p>Соления маринованные (ассорти)</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">200 г</span>
+                  <span class="price">35 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Грибы маринованные</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">50 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="images/seled.png" alt="">
+
+              </div>
+              <p>Сельдь по-домашнему</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">200 г</span>
+                  <span class="price">30 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Зелень</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">50 г</span>
+                  <span class="price">15 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="images/olivki.png" alt="">
+
+              </div>
+              <p>Оливки закусочные</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">45 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Нарезка сырная</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">50 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            <div class="dishmenu__item" data-cat="snacks">
+              <div class="dish__img">
+                <img src="" alt="">
+
+              </div>
+              <p>Нарезка мясная</p>
+              <div class="dishmenu__item_info">
+                <div class="about">
+                  <span class="weight">100 г</span>
+                  <span class="price">60 грн</span>
+                </div>
+                <button class="addto">Добавить</button>
+              </div>
+
+            </div>
+
+            
+        </div>
+        
+      </div>
+      <div class="basket">
+        <h3>Корзина заказа</h3>
+        <p>Ваша корзина пуста.</br>Добавьте скорее вкуснейшие блюда в свой заказ!</p>
+        <div class="click">
+          <img src="icons/click.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <img class="footer__icon" src="icons/cop.png">
+      <p>2019</p>
+
+    </footer>
+    <script src="script/jquery.js"></script>
+    <script src="script/slick.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/script_fltr.js"></script>
+
+  </body>
+</html>
